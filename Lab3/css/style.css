@@ -1,0 +1,274 @@
+body {
+	margin: 0 0 0 0;
+	padding: 0;
+	font-family: 'Calibri';
+	font-size: 18px;
+	background-image: url(https://overfire.ru/wp-content/uploads/2016/04/team_liquid_wallpaper_by_aiirwiick-d9myc2y.jpg);
+	background-size: cover;  
+    background-attachment: fixed;
+    background-position: center ; 
+    overflow: visible;	
+}
+
+#dota2_logo {
+	animation-name: slide;
+	animation-duration: 4s;
+	height: 60px;
+	width: 60px;
+	float: right;
+	text-align: right;
+	margin-right: 10px;
+}
+
+#center {
+	display: block; 	
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+header {
+	animation-name: slide;
+	animation-duration: 4s;
+	background-color:#001f3f;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	max-height: 61px;
+}
+
+nav {											
+	width: 960px;
+	height: 63px;
+	text-align: left;
+	width: 97vw;
+}
+
+header ul {											
+	list-style-type: none; 	
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+header ul li {									
+	display: inline-block;
+	opacity: .9;
+}
+
+header ul li:not(:last-child) {
+	border-right: 1px solid black;
+}
+
+header ul li:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;					
+	border-color: #297c77;					
+}
+
+header ul li a,visited{													
+	color: #ffffff;
+	display: block;
+	padding: 20px 50px 20px 40px;
+	text-decoration: none;
+}
+
+header ul li a:hover {							
+	color: #297c77;
+	text-decoration: none;
+}
+
+header ul li:hover ul{							
+	display: block;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+header ul ul{							
+	text-align: center;
+	display: none;
+	position: absolute;
+	background-color: #001f3f;
+	border-top: 0;
+	margin-left: -7px;
+}
+
+header ul ul li{								
+	display: block;
+}
+
+header ul ul li a,visited{						
+	background-color:#001f3f3;
+}
+
+header ul ul li a:hover{						
+	color: #297c77;
+}
+
+
+
+#footer {
+	text-align: center;
+	bottom: 0;
+	padding: 10px 0 10px 0;
+	background-color: #001f3f;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	font-size: 12px;		
+}
+
+#footer_wrapper {
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+}
+
+footer {
+	display: inline-block;
+	color: #ffffff;
+}
+
+footer a {
+	margin: 0px 2px 0px 2px;
+	color: #ffffff;
+}
+
+
+
+#content {
+	margin: 430px 0 0px 0;
+	padding: 10px 0 10px 0;
+	background-color:#89bdd3;				
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#content_wrapper {								
+	width: 960px;
+	margin: 0 auto;
+	color: #545454;
+}
+
+#header_content {
+	font-size: 25px;
+}
+
+
+
+.last_matches_title {
+	font-size: 35px;
+	text-align: center;
+}
+
+.last_matches {
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+	background-color:#89bdd3;
+}
+
+.last_matches_wrapper {
+	font-size: 12px;							
+	width: 960px;
+	height: auto;
+	margin: 0 auto;
+	color: #545454;
+	padding-top: 35px;
+}
+
+.table {
+	margin: 20px 0 10px 0;
+	padding: 10px 10px 30px 10px;
+	font-size: 18px;
+	color: #545454;
+	background-color: #d1d1d1;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	width: 276px;
+	display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    vertical-align: top;
+    min-height: 230px;
+}
+
+.tables {
+	text-align: center;
+}
+
+.News_table {
+    margin: 150px 10px 10px 10px;
+    padding: 10px 30px 30px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #001f3f;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 350px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    vertical-align: top;
+    min-height: 500px;
+    position: relative;
+    animation-name: mymove;
+    animation-duration: 3s;
+}
+
+.news_title {
+	font-size: 25px;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-color: #6d6d6d;
+	border-radius: 2px;
+}
+
+#content_wrapper_news {	
+	text-align: center;						
+	width: 960px;
+	margin: 0 auto;
+	color: #545454;
+}
+
+#content_wrapper_news img {
+	height: 150px;
+	width: 278px;
+}
+#content_wrapper_news img:hover {
+	transform: scale(1.4);
+    transition-duration: 2s;
+}
+
+#content_wrapper_news h1{
+	text-align: center;
+	font-size: 15px;
+}
+
+
+
+
+
+@keyframes mymove {
+	from 
+	{
+		left:-200px;
+	}
+    to 
+    {
+    	left: 0px;
+    }
+}
+@keyframes slide {
+	from {
+		opacity: 0;
+		margin-top: -70px;
+	}
+	to {
+		opacity: 1;
+		margin-top: 0px;
+	}
+}

@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-left: auto;
+    margin-right: 15px;
+    padding: 10px!important;
+    width: 40px;
+    height: 40px;
+    background: url("https://seeklogo.com/images/D/dota-2-logo-A8CAC9B4C9-seeklogo.com.png") 25% 25%/ contain no-repeat;
+    animation-name: slide;
+    animation-duration: 3s;
+}
+
+/* CONTENT */
+
+.main-image {
+    width: 100%;
+    min-height: 500px;
+    background: url(https://overfire.ru/wp-content/uploads/2016/04/team_liquid_wallpaper_by_aiirwiick-d9myc2y.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.history-container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-color: #AFEEEE;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.history-container p, h1{
+    margin: 20px;
+}
+
+.last-matches-container {
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    background-color: #AFEEEE;
+}
+
+.last-matches-container h1{
+    margin: 20px;
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 30px 10px;
+    font-size: 18px;
+    color: #545454;
+    background-color: #4682B4;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    width: 276px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    vertical-align: top;
+    min-height: 480px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.tables {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #4682B4;
+    color: #545454;
+}
+
+@keyframes slide {
+    from {
+        opacity: 0;
+        margin-top: -70px;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0px;
+    }
+
+}
